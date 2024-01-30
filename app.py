@@ -25,10 +25,6 @@ st.sidebar.info (" **Accuracy :** **`80%`**")
 
 
 
-st.sidebar.subheader("About App")
-
-st.sidebar.info("Created by Zahra Zabihinpour as a final project in Data Fullstack (Jedha Bootcamp)")
-st.sidebar.image("./jedha.png", width=100, use_column_width=100)
 
 def diagnose(im):
     model = tf.keras.models.load_model("CT5-2.h5")
@@ -70,8 +66,6 @@ else:
         st.subheader(result)
             
         
-
-
 
 
 
